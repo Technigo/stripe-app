@@ -1,0 +1,44 @@
+/* src/components/CheckoutForm.css */
+.checkout-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-form .StripeElement {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.checkout-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #6772e5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.checkout-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.payment-status {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #fa755a;
+}
+
+.success {
+  color: green;
+}
