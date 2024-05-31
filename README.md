@@ -64,7 +64,11 @@ This project demonstrates how to integrate Stripe payment processing into a Reac
 
 1. Open your browser and navigate to `http://localhost:3000`.
 2. View the product details.
-3. Enter your credit card information and click "Buy Now".
+3. Enter test card info such as 4242 4242 4242 4242. Enter the card number.
+    Use a valid future date, such as 12/34.
+    Use any three-digit CVC (four digits for American Express cards).
+    Use any value you like for other form fields.
+
 4. Check the payment status message to see if the payment was successful.
 
 ## Code Overview
