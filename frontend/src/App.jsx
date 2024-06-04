@@ -3,7 +3,8 @@ import { loadStripe } from "@stripe/stripe-js"
 import CheckoutForm from "./components/CheckoutForm"
 import "./App.css"
 
-const stripePromise = loadStripe("pk_test_4QHSdRjQiwkzokPPCiK33eOq")
+const apiKey = import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY
+const stripePromise = loadStripe(apiKey)
 
 const App = () => {
   return (
