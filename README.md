@@ -40,9 +40,9 @@ This project demonstrates how to integrate Stripe payment processing into a Reac
 
 ### Frontend Setup
 
-1. Navigate to the frontend directory:
+1. With the backend server running, navigate to the frontend directory:
     ```bash
-    cd ../frontend
+    cd frontend
     ```
 
 2. Install the required dependencies:
